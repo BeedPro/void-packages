@@ -1,7 +1,7 @@
 # Template file for 'plasma-systemmonitor'
 # group=kde-plasma
 pkgname=plasma-systemmonitor
-version=6.7.3
+version=6.7.5
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF
@@ -19,7 +19,7 @@ maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-only, GPL-3.0-only, LGPL-2.1-only, LGPL-3.0-only"
 homepage="https://invent.kde.org/plasma/plasma-systemmonitor"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=5c1190c61d20a254ce8f369de55a837df2ee33366e78124b015cbb3d62d1490c
+checksum=5708e8f0e1833e0829144a14aba1f177262661cc57b20c4a5a34bfd6973d1f1b
 
 # stage builds
 makedepends+=" kde-plasma-base"
